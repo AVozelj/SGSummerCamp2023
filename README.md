@@ -6,14 +6,17 @@
 (https://www.python.org/downloads/windows/)
 ## VSCode
 (https://code.visualstudio.com/)
+## Repository cloning
+$ git clone https://github.com/AVozelj/SGSummerCamp2023
 ## Environment installation, activation and libraries
 
 python -m venv .venv   
 
-# set interpreter
+### Activate interpreter
 
 .venv/Scripts/activate
 
+### Libraries
 pip install numpy
 
 pip install pandas
