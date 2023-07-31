@@ -7,6 +7,11 @@
 ## VSCode
 (https://code.visualstudio.com/)
 ## Repository cloning
+### Get Git first
+(https://git-scm.com/)
+
+... navigate to your working directory and then:
+
 $ git clone https://github.com/AVozelj/SGSummerCamp2023
 ## Environment installation, activation and libraries
 
