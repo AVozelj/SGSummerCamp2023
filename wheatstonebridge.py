@@ -37,6 +37,10 @@ class WheatstoneBridge:
         #
         return voltage_ratio(self.node_sg,self.dir_sg,load_case,self.gf_sg)
     
+    def epsilon(self, lc):
+        return calculate_sg_strains(self.node_sg, self.dir_sg, lc)
+        
+        
     def plot3d(self,sglsc=1.0):
         self.update()
         cols=['node','x','y','z']
@@ -124,5 +128,7 @@ if __name__ == "__main__":
     VR = wb.calculate(load_case) # voltage ratio
     
     print(f'Voltage ratio V_OUT/V_EXC for load case {load_case}={VR*1e3:.4f}mV/V')
+    print('Strains in microepsilon:')
+    print(f'Eps1={wb.epsilon(load_case)[0]*1e6:.3f}, Eps2={wb.epsilon(load_case)[1]*1e6:.3f}, Eps3={wb.epsilon(load_case)[2]*1e6:.3f}, Eps4={wb.epsilon(load_case)[3]*1e6:.3f}')
     
     wb.plot3d()
