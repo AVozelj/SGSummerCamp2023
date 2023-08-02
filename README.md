@@ -1,7 +1,16 @@
 # SG Challenge Summer Camp2023
 
 ![Summer Camp 2023](Summer-Camp.png)
- 
+
+# Homework for day 1
+Try to calcualte expected output ratio for all three wheatstone bridges you installed today. 
+Stains available in data/strains.lst are for load cases:
+- Load case 1 - 1kN FX
+- Load case 2 - 1kN FY
+- Load case 3 - 1kN FZ
+
+You can also try to write down the sensitivity for each direction.
+
 ## Python installation
 (https://www.python.org/downloads/windows/)
 ## VSCode
