@@ -3,13 +3,18 @@
 ![Summer Camp 2023](Summer-Camp.png)
 
 # Homework for day 1
-Try to calcualte expected output ratio for all three wheatstone bridges you installed today. 
+Corrected node mapper since it was unclear which coordinate system to use.
+In script nodes.py you can now directly see ANSYS coordinates.
+Please use Matplotlib library version 3.7.2 as visualization ...  
+
+Try to calcualte expected sensitivity for all three wheatstone bridges you installed today in mV/V/kN. 
 Stains available in data/strains.lst are for load cases:
 - Load case 1 - 1kN FX
 - Load case 2 - 1kN FY
 - Load case 3 - 1kN FZ
 
-You can also try to write down the sensitivity for each direction.
+
+
 
 ## Python installation
 (https://www.python.org/downloads/windows/)
@@ -35,6 +40,6 @@ pip install numpy
 
 pip install pandas
 
-pip install matplotlib 
+pip install matplotlib (version matplotlib-3.7.2 suggested)
 
 ...
