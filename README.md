@@ -31,7 +31,7 @@ pip install matplotlib (version matplotlib-3.7.2 suggested)
 ...
 
 # Output for sesitivity calculation
----------------------------------
+`---------------------------------
 FX SENSOR WHEATSTONE BRIDGE
 
 Load case 1:
@@ -94,5 +94,5 @@ Load case 3:
         Strains in microepsilon:
         Eps1=-184.027, Eps2=184.027, Eps3=-184.027, Eps4=184.027
 
-        Voltage ratio V_OUT/V_EXC for load case 3 = -0.3699 mV/V
+        Voltage ratio V_OUT/V_EXC for load case 3 = -0.3699 mV/V`
 ---------------------------------
